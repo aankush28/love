@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("https://townsquare.media/site/137/files/2019/02/GettyImages-637543328.jpg?w=980&q=75");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: pink;
+
+}
+.m{
+    background-color: rgba(255, 192, 203, 0.267);
+    margin: 50px;
+    
+    padding: 100px;
+    
+}
+h1{
+    color: rgb(241, 228, 34);
+    margin-left: 150px;
+    
+}
+.ok{
+    margin-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .m{
+      margin: auto;
+     
+     padding: 70px;
+    }
+    h1{
+        
+        margin-left: auto;
+    }
+    .ok{
+        margin-left: 50px;
+    }
+  }
+  img{
+      position:absolute;
+      box-shadow: lightcoral;
+  }
